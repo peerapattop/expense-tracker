@@ -29,6 +29,13 @@ class _ExpensesState extends State<Expenses> {
     ),
   ];
 
+  void openExpenseForm() {
+    showModalBottomSheet(
+      isScrollControlled: true,
+      context: context,
+      builder: (ctx) => const Text("data"),
+    );
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +43,7 @@ class _ExpensesState extends State<Expenses> {
         title: const Text('Flutter Expense Tracker'),
         actions: [
           IconButton(
-              onPressed: (){}, 
+              onPressed: openExpenseForm,
               icon: const Icon(Icons.add),
           )
         ],
