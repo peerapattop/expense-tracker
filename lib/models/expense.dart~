@@ -13,7 +13,7 @@ enum Category {
   work,
 }
 
-const categoriesIcons = {
+const categories = {
   Category.food: Icons.lunch_dining,
   Category.travel: Icons.flight_takeoff,
   Category.leisure: Icons.movie,
