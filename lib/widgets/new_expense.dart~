@@ -50,7 +50,7 @@ class _NewExpenseState extends State<NewExpense> {
                 Navigator.pop(ctx);
               },
               child: const Text('Close'),
-            ),
+            )
           ],
         ),
       );
