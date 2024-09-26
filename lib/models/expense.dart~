@@ -13,7 +13,7 @@ enum Category {
   work,
 }
 
-const categories = {
+const categoriesIcons = {
   Category.food: Icons.lunch_dining,
   Category.travel: Icons.flight_takeoff,
   Category.leisure: Icons.movie,
@@ -36,5 +36,28 @@ class Expense {
 
   String get formattedDate {
     return formatter.format(date);
+  }
+}
+
+class ExpenseBucket {
+  ExpenseBucket({
+    required this.category,
+    required this.expenses,
+  });
+
+  ExpenseBucket.formCategory(List<Expense> allExpenses, this.category)
+      : expenses = allExpenses
+            .where((expense) => expense.category == category)
+            .toList();
+
+  final Category category;
+  final List<Expense> expenses;
+
+  get totalExpenses {
+    double sum = 0;
+    for (final expense in expenses) {
+      sum += expense.amount;
+    }
+    return sum;
   }
 }
