@@ -10,7 +10,7 @@ void main() {
     MaterialApp(
       theme: ThemeData().copyWith(
         colorScheme: kColorScheme,
-        appBarTheme: AppBarTheme(
+        appBarTheme:  AppBarTheme(
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         )
