@@ -7,7 +7,6 @@
   <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense1.png" width="200" />
   <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense2.png" width="200" />
   <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense3.png" width="200" />
-  <img src="https://github.com/peerapattop/elder-care/raw/main/assets/images/profile.png" width="200" />
   
 ## 📥 ดาวน์โหลดแอปพลิเคชัน
 https://drive.google.com/file/d/1oS8aVdjsfyyEc05p514k2qXpBLPhRwv0/view?usp=sharing
