@@ -1,16 +1,13 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+เป็นแอปพลิเคชัน Flutter สำหรับติดตามค่าใช้จ่ายและรายรับในชีวิตประจำวัน ช่วยให้ผู้ใช้สามารถจัดการการเงินได้อย่างมีประสิทธิภาพมากขึ้น โดยสามารถบันทึกรายการค่าใช้จ่าย แยกหมวดหมู่ ดูรายงานสรุป และวิเคราะห์แนวโน้มทางการเงินได้ พัฒนาด้วย Flutter ตามหลักสูตรใน Udemy "Flutter & Dart - The Complete Guide [2025 Edition]"
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎥 ตัวอย่างแอปพลิเคชัน
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense1.png" width="200" />
+  <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense2.png" width="200" />
+  <img src="https://github.com/peerapattop/expense-tracker/raw/main/assets/images/expense3.png" width="200" />
+  <img src="https://github.com/peerapattop/elder-care/raw/main/assets/images/profile.png" width="200" />
+  
+## 📥 ดาวน์โหลดแอปพลิเคชัน
+https://drive.google.com/file/d/1oS8aVdjsfyyEc05p514k2qXpBLPhRwv0/view?usp=sharing
